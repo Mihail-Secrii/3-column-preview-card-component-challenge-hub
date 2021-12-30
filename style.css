@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+	background-color: hsl(0, 0%, 95%);
+}
+
+a{
+	padding: 12px 32px;
+	border-radius: 24px;
+	background-color: hsl(0, 0%, 95%);
+	text-decoration: none;
+	border: 2px solid hsl(0, 0%, 95%);
+	transition: .5s;
+	font-size: 15px;
+}
+
+a:hover{
+	background-color: transparent;
+	color: #fff !important;
+}
+
+.body{
+	width: 920px;
+	display: flex;
+	font-family: 'Lexend Deca', sans-serif;
+	border-radius: 6px;
+	overflow: hidden;
+	color: #fff;
+}
+
+.body div{
+	width: 100%;
+}
+
+.col{
+	padding: 48px;
+}
+
+.col h1{
+	text-transform: uppercase;
+	font-family: 'Big Shoulders Display', cursive;
+	color: hsl(0, 0%, 95%);
+	margin: 42px 0;
+}
+
+.col p{
+	font-size: 15px;
+	line-height: 1.625em;
+	color: hsla(0, 0%, 100%, 0.75);
+}
+
+.col-text{
+	margin-bottom: 90px;
+}
+
+.num1{
+	background-color: hsl(31, 77%, 52%);
+}
+
+.num1 a{
+	color: hsl(31, 77%, 52%);
+}
+
+.num2{
+	background-color: hsl(184, 100%, 22%);
+}
+
+.num2 a{
+	color: hsl(184, 100%, 22%);
+}
+
+.num3{
+	background-color: hsl(179, 100%, 13%);
+}
+
+.num3 a{
+	color: hsl(179, 100%, 13%);
+}
+
+@media only screen and (max-width: 960px){
+	.body{
+		width: 325px;
+		flex-wrap: wrap;
+	}
+
+	.col-text{
+		margin-bottom: 28px;
+	}
+}
